@@ -2,11 +2,6 @@
 
 describe('fizzbuzz', function() {
 
-  var fizzbuzz;
-  beforeEach(function() {
-    fizzbuzz = require('../lib/fizzbuzz');
-  });
-
   it('returns Fizz if the number is divisible by 3', function() {
     expect(fizzbuzz(3)).toEqual('Fizz');
     expect(fizzbuzz(21)).toEqual('Fizz');
