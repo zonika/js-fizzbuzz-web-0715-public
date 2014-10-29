@@ -7,11 +7,14 @@ tags: flow control, conditionals, loops
 Fizzbuzz is the time honored example program in which you need to write a program that returns "Fizz" for numbers divided by 3, "Buzz" for numbers divided by 5, and "FizzBuzz" for numbers divisible by both.  If a number is not divisible by either just return the number.  Now go JavaScript!
 
 To run the specs follow these commands:
-
-first install the new gem to run the tests
+```shell
+# first install the new gem to run the tests
 gem sources -a http://flatiron:33west26@gems.flatironschool.com
 gem install jasmine-flatiron
-to run in the command line run
+
+# to run in the command line run
 jasmine-flatiron
-to run in the browser
+
+#to run in the browser
 jasmine-flatiron -b
+```
